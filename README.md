@@ -1,80 +1,73 @@
-# Agency Agents — Curated for Fractional CTO Practice
+# Agency Agents - Fractional CTO Curated Collection
 
-Fork of [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — curated selection of AI agent prompts relevant for a Fractional CTO consulting practice.
+> Curated selection of 40 specialized AI agents for OpenClaw, focused on engineering, marketing, sales, and strategy tasks relevant to fractional CTO practice.
 
-31 agents selected from 100+ originals. Organized by function.
+This is a curated fork of [agency-agents](https://github.com/agent-collaboration-org/agency-agents) containing only the most relevant agents for:
 
-## Engineering (11)
+- **ilia.ae Fractional CTO Practice**
+- WordPress + OpenClaw automation  
+- IT consulting, cybersecurity, fintech, blockchain content
+- RU+EN bilingual business operations
 
-| Agent | Use Case |
-|---|---|
-| Security Engineer | Threat modeling, secure code review, vulnerability assessment |
-| SRE | SLOs, error budgets, observability, chaos engineering |
-| DevOps Automator | CI/CD, IaC, cloud ops, deployment automation |
-| Threat Detection | SIEM rules, threat hunting, ATT&CK mapping |
-| Backend Architect | API design, database architecture, scalability |
-| Code Reviewer | PR reviews, code quality, security review |
-| Database Optimizer | Schema design, query optimization, indexing |
-| Embedded Firmware | Bare-metal, RTOS, ESP32/STM32 firmware |
-| Software Architect | System design, DDD, architecture decisions |
-| Incident Response | Incident management, post-mortems, on-call |
-| Technical Writer | Developer docs, API reference, tutorials |
+## 🎯 Selected Categories
 
-## Marketing (7)
+### 🔧 Engineering (14 agents)
+Backend architecture, security engineering, DevOps automation, code review, database optimization, incident response, and technical documentation.
 
-| Agent | Use Case |
-|---|---|
-| SEO Specialist | Technical SEO, content strategy, link building |
-| Content Creator | Multi-platform content, editorial calendars |
-| Growth Hacker | User acquisition, viral loops, experiments |
-| LinkedIn Creator | Personal branding, thought leadership, B2B |
-| Twitter Engager | Real-time engagement, thought leadership |
-| AI Citation Strategist | AEO/GEO, AI recommendation visibility |
-| Social Media Strategist | Cross-platform strategy, campaigns |
+### 📈 Marketing (8 agents)  
+SEO optimization, content creation, growth hacking, LinkedIn management, social media strategy, and analytics.
 
-## Sales (5)
+### 💰 Sales (7 agents)
+Outbound strategy, discovery coaching, deal strategy, proposal writing, pipeline analysis, and sales engineering.
 
-| Agent | Use Case |
-|---|---|
-| Outbound Strategist | Signal-based prospecting, ICP targeting |
-| Discovery Coach | SPIN/Gap Selling, qualification |
-| Deal Strategist | MEDDPICC, competitive positioning |
-| Proposal Strategist | RFP response, win themes |
-| Pipeline Analyst | Forecasting, pipeline health, RevOps |
+### ⚡ Specialized (5 agents)
+Agent orchestration, compliance auditing, MCP building, data engineering, and performance benchmarking.
 
-## Support (3)
+### 📊 Strategy (3 agents)
+Project management, product management, and workflow architecture.
 
-| Agent | Use Case |
-|---|---|
-| Infrastructure Maintainer | Monitoring, reliability, performance |
-| Analytics Reporter | Dashboards, KPIs, data visualization |
-| Executive Summary Generator | C-suite reporting, strategic summaries |
+### 🛠 Support (3 agents)
+Infrastructure maintenance, executive summaries, and customer support.
 
-## Specialized (3)
+## 🚀 OpenClaw Integration
 
-| Agent | Use Case |
-|---|---|
-| Agents Orchestrator | Multi-agent coordination |
-| Compliance Auditor | SOC 2, ISO 27001, regulatory |
-| MCP Builder | Model Context Protocol servers |
+All agents are pre-configured with:
 
-## Strategy (2)
+- **Context**: ilia.ae Fractional CTO practice
+- **WordPress REST API** compatibility (Polylang bilingual)
+- **Humanizer rules** (no AI writing patterns)
+- **First-person content** style ("I help" / "Я помогаю")
 
-| Agent | Use Case |
-|---|---|
-| Nexus Strategy | Cross-team coordination framework |
-| Quickstart | Getting started guide |
+## 📁 Installation
 
-## Usage
+For OpenClaw users:
 
 ```bash
-# OpenClaw
-cp -r agents/ ~/.openclaw/workspace-supervisor/agency-agents/
+# Clone this repo
+git clone https://github.com/razqqm/agency-agents.git
 
-# Claude Code
-cp -r agents/ ~/.claude/agents/
+# Convert to OpenClaw skills (if needed)
+cd agency-agents
+# Use OpenClaw integration tools or manual setup
 ```
 
-## License
+## 🎨 Original Project
 
-MIT — Original by [msitarzewski](https://github.com/msitarzewski/agency-agents)
+This is a curated subset of the original [Agency Agents](https://github.com/agent-collaboration-org/agency-agents) project. 
+
+**Total agents in original**: 156  
+**Selected for this collection**: 40  
+**Filtered out**: Chinese platforms, gaming, spatial computing, Salesforce-specific, Korean business
+
+## 📝 License
+
+Same as original project - see [LICENSE](LICENSE)
+
+## 🔄 Updates
+
+This fork is maintained as needed for ilia.ae business requirements. For the latest comprehensive collection, see the upstream repository.
+
+---
+
+**Maintained by**: [ilia.ae](https://ilia.ae) Fractional CTO Practice  
+**Focus**: IT consulting • Cybersecurity • Fintech • Blockchain
